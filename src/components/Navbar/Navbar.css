@@ -1,0 +1,74 @@
+.App-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.Heading {
+  color: #b1dd03;
+}
+.navbar {
+  width: 40%;
+}
+.menu {
+  justify-content: space-evenly;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+ul {
+  padding: 0%;
+}
+li {
+  margin: 0% 5%;
+}
+
+@media (min-width: 800px) {
+  .menu-icon {
+    display: none;
+  }
+  /* .navbar{
+    flex: ;
+  } */
+}
+@media (max-width: 800px) {
+  .false {
+    display: none;
+  }
+  .navbar {
+    width: fit-content;
+  }
+  .active {
+    display: block;
+  }
+  .navbar {
+    padding: 0% 10%;
+    align-items: center;
+  }
+  li {
+    padding: 20% 30% 20% 0%;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px; /* Add some margin between menu items */
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  /* Add transition for smooth animation */
+  .menu {
+    transition: margin-top 0.3s ease;
+  }
+  
+  .active {
+    margin-top: 50px; /* Adjust this value to control how far the items move down */
+  }
+  
+}

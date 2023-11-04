@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background: #fcfcff;
+  font-family: verdana;
+  margin-left: 5%;
+}
+
+.App-header {
+  width: 100%;
+}
+.accordions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.featuretitle {
+  margin: 5%;
+  margin-left: 0%;
+}
+.featuredesc {
+  color: gray;
+  font-size: 0.9em;
+}
+.image-column {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.picdesc1 {
+  display: flex;
+  justify-content: space-between;
+  padding:3% 0;
+  text-align: left;
+}
+.picture-animation {
+  animation: blur 3s infinite alternate;
+  max-height: fit-content;
+  max-width: fit-content;
+  margin: 10%;
+  margin-top: 0%;
+  padding: 5%;
+  background: #ececec;
+  border-radius: 15px;
+}
+@keyframes blur {
+  from {
+    filter: blur(3px);
+    opacity: 0;
+  }
+  to {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@media (max-width: 800px) {
+  /* .App{
+    margin-right: 5%;
+  } */
+  .accordions{
+    display:block;
+  }
+  .image-column {
+    width: 100%;
+  }
+}

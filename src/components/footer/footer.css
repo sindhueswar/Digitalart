@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 5%;
+  overflow-x: auto;
+  height: 120%;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.container {
+  padding: 3px 15px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  padding: 0.8%;
+  background: #dedede;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.card:not(:last-child) {
+  margin: 0 30px;
+}
+.current {
+  background: #dedede;
+  border: 3px gray;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.1px gray,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+  transition: 3s ease-in-out;
+}
+.btn3 {
+  background: #b1dd03;
+  border-radius: 30px;
+  padding: 4% 5%;
+  border-width: 1.5px;
+  width: 100%;
+}
+.card .card-title {
+  font-size: 20px;
+  margin: 10 0 0 10;
+}
+
+.card .card-content {
+  margin: 0;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: justify;
+  margin: 3%;
+}
+.bidder1 {
+  width: fit-content;
+  height: fit-content;
+  background: #dedede;
+  border-radius: 5%;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+}
+.pic2 {
+  border-radius: 5%;
+  width: 280px;
+  height: 280px;
+}
+
+.v1 {
+  border-left: 1.5px solid gray;
+  height: 30px;
+  margin-top: 5%;
+}
+.cost {
+  color: black;
+  font-weight: bold;
+}
+
+.btn4 {
+  border-radius: 50%;
+  padding: 0.4%;
+  border: none;
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

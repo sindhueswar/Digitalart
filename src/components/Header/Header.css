@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  margin: 0%;
+  text-align: left;
+  overflow: visible;
+}
+.feature {
+  background: #eff8cb;
+  width: fit-content;
+  padding: 0.5% 2%;
+  border-radius: 30px;
+  font-size: medium;
+}
+.containerhead {
+  padding-right: 5%;
+  width: 60%;
+}
+.head {
+  margin-top: 15%;
+  font-size: larger;
+}
+
+.headtext {
+  line-height: 140%;
+  animation: fadeIn 5s;
+}
+.Highlighttext  
+ {
+  color: #a0c800;
+  text-decoration: underline;
+   position: absolute;
+}
+.headdesc {
+  font-weight: 100;
+  padding-right: 15%;
+  margin-top: 6%;
+}
+.highlightnum {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.btn {
+  margin-top: 6%;
+}
+.btn1,
+.btn2 {
+  background: transparent;
+  border-radius: 30px;
+  padding: 1.5% 4%;
+  border-width: 1.5px;
+}
+.btn2 {
+  margin-left: 4%;
+}
+.btn1:hover,
+.btn2:hover,.btn4:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+  background: #b1dd03;
+}
+.horizontalline {
+  border-bottom: 1px solid gray;
+  margin: 8% 0%;
+  width: 45%;
+  justify-content: center;
+}
+.bidding {
+  width: 40%;
+}
+.branding {
+  display: inline;
+}
+@media (max-width: 800px) {
+  .header {
+    display: block;
+  }
+  .bidding {
+    width: 100%;
+    justify-content: left;
+  }
+  .containerhead {
+    width: 100%;
+    margin: 0%;
+  }
+  .greenbox {
+    width: 100%;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-around;
+  }
+  .horizontalline {
+    width: 100%;
+  }
+   .branding{
+    display:none;
+   }
+}
+
+@media (min-width: 1400px) {
+  .branding {
+    margin-right: 1.7%;
+    display: block;
+  }
+ }
+ @media (min-width: 1024px) {
+  .branding {
+    display: block;
+     }
+ }
